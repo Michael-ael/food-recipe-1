@@ -130,6 +130,7 @@ body.dark .ball{
 
 /*   */
 .real-wrapper{
+    background:#fff;
     text-align: center;
     transition: 0.5s linear;
 }
