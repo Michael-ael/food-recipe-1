@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="food.css">
+    <title>food recipie</title>
+</head>
+<body>
+    <div class="container">
+        <div class="real-wrapper">
+            <!-- toggle dark -->
+            <div class="toggle">
+                <p> Change the theme...</p>
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="label">
+                    <i class="fas fa-sun"></i>  
+                    <i class="fas fa-moon"></i>
+                    <div class="ball"></div>
+                </label>
+            </div>
+
+
+            <div class="real-search">
+                <h2 class="title"> Find Meals For Your Ingredients</h2>
+                <blockquote class="quote"> Real Food doesn't have Ingredients, real food is Ingredients <br>
+                    <cite> "Michael Chimezie" </cite>  
+                </blockquote>
+                <p> search for your recipe using it's ingredient i.e. butter,egg...</p>
+
+                <div class="real-search-box">
+                    <input type="text" class="search-content" placeholder="Enter an ingredient..." id="search-input">
+                    <button type="submit" class="search-btn btn" id="search-btn">
+                        <img src="images/search.png" alt="">
+                     </button>
+                </div>
+
+                <div class="real-result">
+                    <h2 class="title"> Your Search Result: </h2>
+                    <div id="real">
+                        <!-- meal item -->
+                        <!-- <div class="real-item">
+                            <div class="real-img">
+                                <img src="images/post-1.jpg" alt="">
+                            </div>
+
+                            <div class="real-name">
+                               <h3> Grilled Meat</h3> 
+                               <a href="#" class="recipe-btn"> Get recipie </a>
+                            </div>
+                        </div> -->
+                        <!-- end of meal item -->
+
+                    </div>  
+                </div>
+            </div>
+
+            <div class="real-details">
+                <!-- recipe class btn -->
+                <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+                    <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z" fill="#000" fill-rule="evenodd"/></svg>
+                </button>
+
+                <!-- real-content -->
+                <div class="real-details-content">
+                    <!-- <h2 class="recipe-title"> Meals Name Here</h2>
+                    <p class="recipe-category"> Category Home</p>
+                    <div class="recipe-instruct">
+                        <h3> Instructions:</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos dolore pariatur libero maiores obcaecati, delectus perspiciatis cupiditate asperiores velit atque veritatis voluptates nemo hic perferendis dolorum accusantium accusamus excepturi rem.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dignissimos unde ad obcaecati nihil temporibus, ea, distinctio error vitae consequuntur facilis illo. Odio praesentium aperiam sint perspiciatis sunt porro. Architecto?
+                        </p>
+                    </div>
+
+                    <div class="recipe-meal-img">
+                        <img src="images/post-1.jpg" alt="">
+                    </div>
+
+                    <div class="recipe-link">
+                        <a href="#" target="_blank"> Watch Videos</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <script src="food.js"></script>
+</body>
+</html>
