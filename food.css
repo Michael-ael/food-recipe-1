@@ -131,7 +131,6 @@ body.dark .ball{
 /*   */
 .real-wrapper{
     text-align: center;
-    background: #fff;
     transition: 0.5s linear;
 }
 
@@ -256,7 +255,7 @@ body.dark .real-wrapper{
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    background: var(--color-dark);
+    background: var(--primary);
     border-radius: 1rem;
     width: 90%;
     height: 90%;
